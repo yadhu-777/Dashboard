@@ -1,4 +1,4 @@
-
+import { watchlist } from "../data/data"
 import {Tooltip,Grow} from "@mui/material";
 import { BarChartOutlined, KeyboardArrowDown, KeyboardArrowUp ,MoreHoriz} from '@mui/icons-material';
 import { useNavigate } from "react-router-dom";
