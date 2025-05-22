@@ -1,0 +1,438 @@
+.box{
+   
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    border: 1px solid black;
+    position: relative;
+    top: 0rem;
+  z-index: 1000;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+}
+body, html {
+    height: 100%;
+    margin:0%; /* Ensure the root elements have a height */
+    overflow: hidden;
+    
+}
+
+#outerdiv{
+    display: flex;
+    flex-direction: column;
+    
+      
+    
+}
+
+.barpadding{
+    padding: 2rem;
+   margin-bottom: 4rem;
+}
+
+
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.first p{
+    margin-right: 1rem;
+}
+.second p{
+    margin-right: 1rem;
+}
+
+#summary{
+   padding: 4rem;
+   margin-top: 5rem;
+ 
+ border-bottom: 1px solid #858383;
+}
+#summary p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+   color: #858383;
+}
+#summary span{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+#borderb{
+    border-bottom: #858383;
+}
+
+.outerr{
+    display: flex;
+    position: relative;
+    z-index: 1000; 
+    height: 78px; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+
+  
+ 
+
+}
+
+
+#outt{
+   
+display: flex;
+   text-align: center;
+
+   align-items: center;
+   
+}
+#outt button{
+  margin: auto;
+}
+.input input{
+margin-right: 9px;
+border-radius: 5px;
+border: 1px solid #ddd;
+
+}
+
+
+#out input{
+margin: 1rem 0rem 10px 0rem;
+width: 20rem;
+padding: 9px;
+border-radius: 7px;
+}
+
+
+
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    
+
+}
+.outer a{
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+
+
+.wish-container{
+
+    display: flex;
+   height: 87vh;
+    overflow-y: scroll;
+    flex-direction: column;
+   flex-basis: 35%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+
+table tr {
+    border-top: 1px solid #afaaaa;
+    border-bottom: 1px solid #858383;
+   
+  }
+.positionBox table tr {
+    border-top: 1px solid #afaaaa;
+    border-bottom: 1px solid #858383;
+   
+  }
+  .positionBox table tr td:nth-child(1),
+  table tr td:nth-child(4),
+  table tr td:nth-child(7){
+    border-right: 2px solid #858383;
+  }
+  table tr td:nth-child(1),
+  table tr td:nth-child(4),
+  table tr td:nth-child(7){
+    border-right: 2px solid #858383;
+  }
+
+  table tr th:nth-child(1),
+  table tr th:nth-child(4),
+  table tr th:nth-child(7){
+    border-right: 2px solid #858383;
+  }
+  
+#ordertable  td {
+    border-right: 2px solid black;
+}
+  
+#ordertable  th{
+    border-right: 2px solid black;
+}
+
+
+ .pftclr{
+    color: green;
+ }
+ .lossclr{
+    color: red;
+ }
+  
+table{
+ margin: 1rem;
+ width: 100%;
+}
+tr:hover{
+    background-color: #f9f9f9;
+}
+
+th,td{
+ 
+   padding: 12px 30px 12px 30px;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.items p:hover{
+  color: orange ;
+}
+.orgclr{
+    color: orange;
+  }
+
+
+
+#inputt{
+    width: 84%;
+    height: 6%;
+    border: none;
+    padding: 2rem 0rem 1rem 0rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(241, 241, 241);
+   
+}
+.input{
+    border-bottom: 0.8px solid rgb(235, 234, 234);
+}
+.items{
+    display: flex;
+   justify-content: space-between;
+  
+   
+   
+
+
+}
+
+.options{
+    display: flex;
+
+    align-items: center;
+   
+}
+.options button{
+    margin-left: 7px;
+}
+.inner-items{
+    display: flex;
+    margin: auto;
+}
+
+.options span{
+   margin-right: 5px;
+   
+}
+.wish-container li{
+    margin-bottom: 1rem;
+}
+
+
+.items:hover{
+    cursor: pointer;
+}
+
+.listitems .left-side span:nth-child(1) {
+    color: black;
+}
+
+.listitems .left-side span:nth-child(2) {
+    color: red; 
+}
+.outerlist{
+    list-style: none;
+}
+
+.listitems{
+  
+    
+    border-bottom: 1px solid rgb(235, 234, 234);
+}
+.outerlist li:hover{
+    background-color:  rgb(235, 234, 234);
+}
+#piechartt{
+  padding: 1rem;
+}
+
+.count{
+    color: rgb(76, 72, 72);
+}
+.dashboard{
+    display: flex;
+  
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+
+
+}
+.outerbox{
+    width: 100%;
+    height: 100%;
+   display: flex;
+  
+}
+.left-side{
+    display: flex;
+}
+
+.left-side p{
+    margin-right: 1rem;
+}
+.content{
+    height: 100vh;
+   flex: 1;
+   z-index: 999;
+   overflow-y: scroll;
+
+   
+  
+}
+
+
+
+
+.containerr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  z-index: 9999;
+  width: 100%;
+    height: 100vh;
+   
+   
+    
+}
+
+/* .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 0.8rem;
+    position: relative;
+  }
+  
+  .item-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .item-info > * {
+    margin-right: 8px;
+  }
+  
+  .item-info span:nth-child(1) {
+    color: rgb(141, 141, 141);
+    flex: 1;
+  }
+  
+  .item-info span:nth-child(2) {
+    color: rgb(223, 73, 73);
+    margin-right: 12px;
+    flex: 2;
+  }
+  
+  .item-info span:nth-child(3) {
+    color: rgb(223, 73, 73);
+    flex: 1;
+  } */
+
+  .msg{
+    position: absolute;
+  display: flex;
+  background-color: white;
+  
+    top:50%;
+    left: 36%;
+   height: 200px;
+    z-index: 1000;
+    border: 2px solid black;
+    padding: 2rem;
+
+}
+
+
+
+.button{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.inerroption{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+ overflow-wrap: anywhere;
+    text-align: center;
+}
+
+
+.outer2{
+    border: 1px solid #ddd;
+    background-color: white;
+z-index: 1000;
+width: 18%;
+height: 35vh;
+    position: absolute;
+
+    right: 1rem;
+    top: 6rem;
+    border-radius: 1rem ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+.txt{
+ padding: 8px;
+   
+}
+
+.tradebtn button{
+    margin-left: 13px;
+    border-radius: 6px;
+}
+
+
+.profile-active{
+    right: -10rem;
+}
