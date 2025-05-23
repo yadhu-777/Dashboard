@@ -56,9 +56,9 @@ const {message,success} = data;
 if(success){
     successHandle(message);
     
-    setTimeout(()=>{
+
         navigate("/")
-    },1000);
+   
 }
 else{
     handleError(message);
