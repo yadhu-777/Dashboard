@@ -57,7 +57,7 @@ if(success){
     successHandle(message);
     
     setTimeout(()=>{
-        navigate("/nav")
+        navigate("/")
     },1000);
 }
 else{
