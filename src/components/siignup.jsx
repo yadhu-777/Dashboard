@@ -27,7 +27,7 @@ function successHandle(msg){
     toast.success(msg, {
       position: "top-right",
      
-}, )
+})
 
 
 
