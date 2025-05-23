@@ -31,7 +31,7 @@ axios.post("https://dashboard-yadhu-777s-projects.vercel.app/neworder",{
     const sellfunc =()=>{
 
 
-axios.post("https://dashboard-yadhu-777s-projects.vercel.app/neworder",{
+axios.post("https://zerodhabackend-tszm.onrender.com/neworder",{
 
     name:uid,
     price:price,

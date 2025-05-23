@@ -8,7 +8,7 @@ export default function Vieworder(){
 useEffect(()=>{
   
 
-      axios.get("https://dashboard-yadhu-777s-projects.vercel.app/order").then((res)=>{
+      axios.get("https://zerodhabackend-tszm.onrender.com/order").then((res)=>{
         setOrderval(res.data)
      }
 

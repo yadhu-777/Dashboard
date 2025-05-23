@@ -7,7 +7,7 @@ import { Barchart } from "./barchart";
 export default function Holdings(){
     let[holdings,setHoldings] = useState([]);
 useEffect(()=>{
-    axios.get("https://dashboard-yadhu-777s-projects.vercel.app/allholding").then((res)=>{
+    axios.get("https://zerodhabackend-tszm.onrender.com/allholding").then((res)=>{
         setHoldings(res.data)
         console.log(res.data)
     } )

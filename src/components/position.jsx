@@ -6,7 +6,7 @@ export default function Position(){
 
 let[positions,setPositions] = useState([])
 useEffect(()=>{
-  axios.get("https://dashboard-yadhu-777s-projects.vercel.app/allposition").then((res)=>{
+  axios.get("https://zerodhabackend-tszm.onrender.com/allposition").then((res)=>{
     setPositions(res.data);
   },[])
 })
