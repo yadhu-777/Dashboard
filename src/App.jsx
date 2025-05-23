@@ -18,7 +18,7 @@ function App() {
    
 <Routes>
 
-    <Route path="/nav" element={<Nav/>}  />
+    <Route path="/*" element={<Nav/>}  />
     
     <Route path="/Siignup" element={<Siignup/>}  />
 
