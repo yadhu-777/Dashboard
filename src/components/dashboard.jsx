@@ -24,7 +24,7 @@ useEffect(()=>{
 
    async function check(){
         
-const {data} = await axios.post(
+const {data} = await axios.get(
   "https://zerodhabackend-tszm.onrender.com/",
   {},
   { withCredentials: true }
