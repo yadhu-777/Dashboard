@@ -25,7 +25,7 @@ useEffect(()=>{
    async function check(){
         
 const {data} = await axios.post(
-  "https://zerodhabackend-tszm.onrender.com",
+  "https://zerodhabackend-tszm.onrender.com/verify",
   {},
   { withCredentials: true }
  
@@ -47,7 +47,7 @@ if(status){
 }
 else{
    
-  
+    removeCookie("token");
     navigate("/Siignup")
 }
     }
