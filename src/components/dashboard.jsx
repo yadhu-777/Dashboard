@@ -47,7 +47,7 @@ if(status){
 }
 else{
    
-    removeCookie("token");
+  
     navigate("/Siignup")
 }
     }
