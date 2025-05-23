@@ -14,7 +14,7 @@ export default function Buyactionwindow({uid}){
 
 
 
-axios.post("https://zerodhabackend-tszm.onrender.com/neworder",{
+axios.post("https://dashboard-yadhu-777s-projects.vercel.app/neworder",{
 
     name:uid,
     price:price,
@@ -31,7 +31,7 @@ axios.post("https://zerodhabackend-tszm.onrender.com/neworder",{
     const sellfunc =()=>{
 
 
-axios.post("https://zerodhabackend-tszm.onrender.com/neworder",{
+axios.post("https://dashboard-yadhu-777s-projects.vercel.app/neworder",{
 
     name:uid,
     price:price,

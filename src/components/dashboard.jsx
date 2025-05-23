@@ -25,7 +25,7 @@ useEffect(()=>{
    async function check(){
         
 const {data} = await axios.get(
-  "https://zerodhabackend-tszm.onrender.com/",
+  "https://dashboard-yadhu-777s-projects.vercel.app/",
   {},
   { withCredentials: true }
  
