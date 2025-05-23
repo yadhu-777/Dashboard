@@ -82,7 +82,7 @@ setInputval(
     
     return(
         <div   className="containerr">
-             <img style={{width:"8%"}} src="public/media/image/logo.png"/>
+             <img style={{width:"8%"}} src="media/image/logo.png"/>
              <div id="outt"  className="row">
 
                
