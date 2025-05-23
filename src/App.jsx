@@ -1,7 +1,6 @@
 
 import Nav from './components/nav'
 import './App.css'
-import Holdings from './components/holdings.jsx'
 import { CookiesProvider } from "react-cookie"
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import {UsercontextProvider} from './components/Usercontext.jsx'
@@ -18,10 +17,11 @@ function App() {
     <BrowserRouter>
    
 <Routes>
+ <Route path="/Siignup" element={<Siignup/>}  />
 
-    <Route path="/holdings" element={<Holdings/>}  />
+    <Route path="*" element={<Nav/>}  />
     
-    <Route path="/Siignup" element={<Siignup/>}  />
+ 
 
 </Routes>
 
