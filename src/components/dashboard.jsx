@@ -31,15 +31,15 @@ const {data} = await axios.post(
  
 ); 
 const {status,user,email} = data;
-   const Uuser = user ? user.toUpperCase() :'';
+  
 setUsername(user)
 setUser({
-    user:Uuser,
+    user:user,
     email:email
 });
 if(status){
- 
-    toast(`hello ${Uuser}`,{
+ console.log("hello");
+    toast(`hello ${user}`,{
         position:"top-right"
     })
     
