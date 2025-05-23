@@ -43,7 +43,8 @@ function successHandle(msg){
 async function Submithandle(e){
 e.preventDefault();
 try{
-    const{data} = await axios.post("https://zerodhabackend-tszm.onrender.com/signup",{
+    
+    const{data} = await axios.post("https://zerodhabackend-tszm.onrender.com/Signup",{
     ...inputval
 },{
     withCredentials:true
