@@ -39,7 +39,7 @@ setUser({
     email:email
 });
 if(status){
- console.log("dashboard");
+
     toast(`hello ${user}`,{
         position:"top-right"
     })
@@ -47,7 +47,7 @@ if(status){
 
 }
 else{
-   console.log("removed")
+ 
     removeCookie("token");
     navigate("/Siignup")
 }

@@ -9,7 +9,7 @@ export default function Holdings(){
 useEffect(()=>{
     axios.get("https://zerodhabackend-tszm.onrender.com/allholding").then((res)=>{
         setHoldings(res.data)
-        console.log(res.data)
+       
     } )
   
 },[])
